@@ -60,6 +60,8 @@ is redundant.
 - video
 - image
 - plain
+- script
+- stylesheet
 - jsonp
 - json
 - xml
@@ -67,5 +69,4 @@ is redundant.
 - yaml
 - vml
 - webml
-- script
 - raw

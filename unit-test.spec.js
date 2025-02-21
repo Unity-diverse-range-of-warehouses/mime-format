@@ -453,8 +453,8 @@ describe('lookup', function () {
         it("text/css", function () {
             var mime = mimeFormat.lookup('text/css');
             expect(mime).have.property('type', 'text');
-            expect(mime).have.property('format', 'plain');
-            expect(mime).have.property('guessed');
+            expect(mime).have.property('format', 'stylesheet');
+            expect(mime).not.have.property('guessed');
         });
         it("text/csv", function () {
             var mime = mimeFormat.lookup('text/csv');
